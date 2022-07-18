@@ -1,0 +1,5 @@
+Retrive metedata:
+
+Retrieving metedata is normally exists in running instance.
+we can use CURL to get an running instance metadata or else we can use POSTMAN to do.
+FOr this, we require IP address as an endpoint and token.
