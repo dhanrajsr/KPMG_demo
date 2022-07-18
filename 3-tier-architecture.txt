@@ -1,0 +1,22 @@
+3-tier architecture
+
+This architecture is being used to broken the application compoents into 3 tiers.
+Presentation Layer
+Business Logic Layer
+Data Storage Layer
+
+This architecture is used in a client-server application. Such as webapplication which has front end, backend and database. 
+Each of these layer does the specific task and can be managed independently of each other.
+This is a shift from the monolithic way of building an application where frontend, the backend, and the database are both sitting in one place.
+In Aws where we can go with multi avaiability zones for High Availability, Fault tolerance, Scalability and Security.
+
+Following components are involves in 3 -tier arch
+
+Internet gateway
+VPC
+Public and private subnet
+NAT Gateway
+Application LB
+ALB Security Group
+Front end ASG
+AZ
